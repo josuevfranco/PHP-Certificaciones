@@ -1,0 +1,167 @@
+#navmenu ul{
+    padding: 0;
+    display: flex;
+}
+
+#navmenu li{
+    display: inline;
+    flex-direction: column;
+}
+
+#navmenu li img{
+    float: left;
+}
+
+#navmenu li a{
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    padding: 30px;
+    background-color: dimgray;
+    color: #fff;
+}
+
+#navmenu li a:hover{
+    
+    margin-top: -2;
+    padding-bottom: 12px;
+}
+
+header {
+    flex: 1 1 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 0;
+}
+        
+header a {
+    flex: 0 1 180px;
+}
+
+header a img {
+    width: 50%;
+}
+        
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+        
+header nav ul li a {
+    display: block;
+    background: red;
+    color: #fff;
+    padding: 1rem;
+    margin: 0 .3rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h1, h2{
+    font-weight: bold;
+}
+
+
+.centrar{
+    justify-content: center;
+    align-items: center;
+}
+
+.micuenta{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.cuentauser{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    background-color: lavender;
+}
+
+#texto{
+    font-family: monospace;
+    font-size: 21px;
+}
+
+.titulo{
+    font-size: 30px;
+    color: teal;
+    align-self: center;
+    font-weight: bold;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 25px;
+}
+
+/*PARALLAX*/
+.parallax {
+  /* The image used */
+  background-image: url('../images/slogan.png');
+
+  /* Full height */
+  min-height: 750px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.navpar{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-content: center;
+    padding: 15px;
+}
+
+#divpara{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    background-color: lavender;
+    text-align: justify;
+    border: 20px, solid, white;
+    margin-top: 10px;
+}
+
+#divf{
+    width: 25%;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+    color: white;
+    margin-top: 10px;
+}
+
+#divf a{
+    color: white;
+    font-weight: bold;
+}
+
+.micuenta:hover{
+    box-shadow:  0px 5px 10px #c6c6c6;
+}
+
+#divpara:hover{
+    box-shadow:  0px 5px 10px #c6c6c6;
+}
